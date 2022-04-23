@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css"/>
+    <title>1st portfolio</title>
+</head>
+<body>
+  
+  <h2 id="clock"> 00:00:00 </h2>
+
+  <form class="hidden" id="login-form">
+        <input id="loginput"
+          required
+          type="text"
+          placeholder="What is your name?"
+          size="15px"
+        />
+        <input id="login-btn" type="submit" value="Log In"/>
+  </form>
+  <p></p>
+  <p></p>
+
+  <h1 class="hidden" id="greeting"></h1>
+
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+
+  <p></p>
+  <p></p>
+
+  <form id="todo-form">        
+    <input type="text" placeholder="Write a To Do and Press Enter" required size="50px">
+  </form>
+
+  <div id="todo-list"></div>
+      
+  <script src="background.js"></script>
+  <script src="app.js"></script>
+  <script src="clock.js"></script>
+  <script src="weather.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+.hidden{
+    display:none;
+}
+
+#weather{
+    color: white;
+    font-weight: bolder;
+    text-align:center;
+    text-shadow: 1px 1px 1px #c9c9c9;    
+}
+
+#clock{
+    color:azure;
+    font-weight:bolder;
+    font-size:xx-large;
+    text-align:center;
+    text-shadow: 1px 1px 1px #c9c9c9;
+}
+
+#login-form{
+    text-align:center;
+}
+
+#loginput{
+    outline:3px solid #c9c9c9;    
+}
+
+#login-btn{
+    color:grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#todo-form{
+    text-align:center;
+    width: 100%;
+}
+
+#todo-form input{
+    outline:3px solid;
+    outline-color:#c9c9c9;
+}
+
+
+#todo-list{    
+    text-align:center;
+    color:white;
+    line-height:20px;
+    text-shadow: 1px 1px 1px #c9c9c9;
+    font-size:12px;
+    padding-top:10px;
+}
+
+body {
+    padding: 150px
+}
