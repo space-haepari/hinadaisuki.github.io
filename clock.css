@@ -17,12 +17,18 @@
     text-shadow: 1px 1px 1px #c9c9c9;
 }
 
+#greeting{
+    text-align:center;
+    color:azure;
+}
+
 #login-form{
     text-align:center;
 }
 
 #loginput{
-    outline:3px solid #c9c9c9;    
+    outline:3px solid #c9c9c9;
+    text-align:center    
 }
 
 #login-btn{
@@ -51,5 +57,5 @@
 }
 
 body {
-    padding: 150px
+    padding: 150px    
 }
